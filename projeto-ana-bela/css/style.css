@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menu {
+    background-color: rgb(34, 32, 32);
+}
+#menu ul {
+    max-width: 900px;
+    list-style-type: none;
+    padding: 0;
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    color: rgb(240, 234, 234);
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    transition: background .6s;
+}
+#menu ul li a:hover {
+    background-color: rgb(119, 44, 107);
+
+}
+
+#menu ul li:last-child a {
+    float: right;
+    background-color: rgb(119, 44, 107);
+}
+#capa{
+    background-image: url(imagens/capa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 900px 700px 900px 900px;
+    height: 300px;
+}
+.h1 {
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center ;
+}
+p {
+    text-align: justify;
+    padding: 10px 70px 10px 70px;
+}
+.foto1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(imagens/foto1.png);
+    width: 1210px;
+    height: 600px;
+}
+.foto2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(imagens/foto2.png);
+    width: 1210px;
+    height: 600px;
+}
+.foto3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(imagens/foto3.png);
+    width: 1210px;
+    height: 600px;
+}
+#formatacao-contato {
+    background-image: url(imagens/fundo.png);
+    width: 100%;
+    margin: 0%;
+    padding-inline-start: 5px;
+    padding-left: 250px;
+    padding-top: 100px;
+    display: inline-block ;
+    position: absolute;
+       
+}
+#rodape{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 80px;
+    font-style: italic;
+    text-align: right;
+}
